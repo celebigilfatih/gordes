@@ -1,0 +1,28 @@
+.footer {
+  background: var(--black);
+  color: var(--grey);
+  &__menu {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  &__bottom {
+    border-top: 1px solid var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+.footer {
+  h5 {
+    color: var(--white);
+  }
+
+  ul {
+    li {
+      line-height: 3rem;
+    }
+  }
+}

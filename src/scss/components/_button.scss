@@ -1,0 +1,38 @@
+%btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    color: var(--white-color);
+    letter-spacing: .1rem;
+    transition: .3s ;
+
+}
+.btn {
+
+    &__red {
+
+    @extend %btn;
+    background-color: var(--primary-color);
+
+    &--icon {
+
+        display: none;
+    }
+
+    &:hover {
+
+        background-color: var(--primary-color-dark);
+        transform: translateY(-.5rem);
+        &--icon {
+
+            display: inline-block;
+            
+                }
+            }   
+    }
+
+}
+
+
+

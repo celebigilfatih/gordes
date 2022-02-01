@@ -1,0 +1,67 @@
+.header {
+  background: var(--white);
+
+  &__top {
+    border-bottom: 1px solid var(--border);
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__social {
+    &--link {
+      color: var(--grey);
+      margin-right: 1.5rem;
+    }
+  }
+
+  &__contact {
+    &--link {
+      color: var(--grey);
+    }
+  }
+
+  &__nav {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.shortcut {
+  &__group {
+    position: absolute;
+    display: flex;
+    gap: 3rem;
+    right: 0;
+    z-index: 110;
+    top: -2.5rem;
+  }
+
+  &__capsul {
+    background: var(--primary);
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    margin-left: 0.5rem;
+
+    &--item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+
+      width: 36px;
+      height: 36px;
+      border: 2px solid var(--white);
+      border-radius: 50%;
+
+      &:hover {
+        color: var(--white);
+      }
+    }
+  }
+}

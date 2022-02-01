@@ -1,0 +1,73 @@
+.hakkimizda {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+
+  &__list {
+    li {
+      padding: 2rem 0 2rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__hizmet {
+    display: inline-flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  &__label {
+    font-weight: 700;
+    background: var(--primary);
+    color: var(--white);
+    padding: 1rem 2rem;
+    width: 15rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.faaliyet {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+
+  &__resim {
+    padding: 1.5rem;
+    background: var(--primary);
+  }
+}
+
+.hizmetlerimiz {
+  background: #fcfcfc;
+
+  &__link {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
+
+.iletisim {
+  &__icon {
+    width: 6rem;
+    height: 6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    color: var(--white);
+    margin-right: 1.5rem;
+  }
+
+  &__img {
+    height: 75rem;
+
+    &--1 {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-bottom: 2rem solid var(--primary);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+  font-family: var(--font-primary);
+  font-size: var(--default-font-size);
+}
+
+hr {
+  margin: 0;
+}

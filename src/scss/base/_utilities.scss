@@ -1,0 +1,15 @@
+.b-shadow {
+  box-shadow: var(--shadow);
+}
+
+.gordes__link {
+  display: inline-flex;
+  padding: 1rem 2rem;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+
+  &:hover {
+    color: var(--black);
+    border: 1px solid var(--black);
+  }
+}

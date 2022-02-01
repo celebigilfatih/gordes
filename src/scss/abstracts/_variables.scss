@@ -1,0 +1,58 @@
+:root {
+  --primary: #ed1c2a;
+  --white: #fcfcfc;
+  --grey: #888888;
+  --black: #222222;
+  --border: #f2f2f2;
+
+  --b-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --b-shadow-line: 0px 2px 2px 0 rgba(0, 0, 0, 0.15);
+
+  --font-primary: "PT Sans", sans-serif;
+  --default-font-size: 1.5rem;
+}
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 1,
+    ),
+    1.5: (
+      $spacer * 1.5,
+    ),
+    2: (
+      $spacer * 2,
+    ),
+    2.5: (
+      $spacer * 2.5,
+    ),
+    3: (
+      $spacer * 3,
+    ),
+    4: (
+      $spacer * 4,
+    ),
+    5: (
+      $spacer * 5,
+    ),
+    6: (
+      $spacer * 6,
+    ),
+    7: (
+      $spacer * 7,
+    ),
+    8: (
+      $spacer * 8,
+    ),
+    9: (
+      $spacer * 9,
+    ),
+    10: (
+      $spacer * 10,
+    ),
+  ),
+  $spacers
+);

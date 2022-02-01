@@ -1,0 +1,49 @@
+.slider {
+  position: relative;
+  .carousel-item {
+    height: 75vh;
+  }
+
+  .carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 75%;
+    text-align: center;
+  }
+
+  &__title {
+    color: var(--white);
+    font-weight: 700;
+    &--1 {
+      display: inline-flex;
+      font-size: 7.2rem;
+      letter-spacing: 0.5rem;
+      padding: 2rem;
+      border: 5px solid var(--white);
+    }
+  }
+
+  &__group {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+
+    &--label {
+      background: var(--primary);
+      color: var(--white);
+      padding: 1.5rem 3rem;
+
+      p {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
