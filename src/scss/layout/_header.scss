@@ -3,7 +3,7 @@
 
   &__top {
     border-bottom: 1px solid var(--border);
-    height: 70px;
+    height: 50px;
     display: flex;
     align-items: center;
   }
@@ -22,19 +22,14 @@
   }
 
   &__nav {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
 .shortcut {
-  &__group {
-    position: absolute;
-    display: flex;
-    gap: 3rem;
-    right: 0;
-    z-index: 110;
-    top: -2.5rem;
+  &__groups {
+    gap: 1.5rem;
   }
 
   &__capsul {

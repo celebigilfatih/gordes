@@ -13871,7 +13871,7 @@ a {
 }
 .header__top {
   border-bottom: 1px solid var(--border);
-  height: 70px;
+  height: 50px;
   display: flex;
   align-items: center;
 }
@@ -13883,17 +13883,12 @@ a {
   color: var(--grey);
 }
 .header__nav {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.shortcut__group {
-  position: absolute;
-  display: flex;
-  gap: 3rem;
-  right: 0;
-  z-index: 110;
-  top: -2.5rem;
+.shortcut__groups {
+  gap: 1.5rem;
 }
 .shortcut__capsul {
   background: var(--primary);
@@ -13924,7 +13919,7 @@ a {
   position: relative;
 }
 .slider .carousel-item {
-  height: 75vh;
+  height: 70vh;
 }
 .slider .carousel-caption {
   top: 50%;
@@ -14086,7 +14081,7 @@ a {
   color: var(--black);
   font-weight: 700;
   font-size: 1.6rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 1.5rem;
   transition: 0.4s;
 }
 .nav-link:hover, .nav-link:active, .nav-link:focus {
@@ -14105,6 +14100,10 @@ a {
 .navbar__online:hover, .navbar__online:active, .navbar__online:focus {
   background: var(--black);
   color: var(--white);
+}
+
+.navbar-expand-lg .navbar-nav {
+  gap: 3rem;
 }
 
 .dropdown-menu {
@@ -14404,6 +14403,9 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+}
+.hizmetlerimiz__img {
+  width: 6rem;
 }
 
 .iletisim__icon {
