@@ -1,9 +1,9 @@
 .slider {
   position: relative;
+
   .carousel-item {
     height: 70vh;
   }
-
   .carousel-caption {
     top: 50%;
     left: 50%;
@@ -17,7 +17,6 @@
     width: 75%;
     text-align: center;
   }
-
   &__title {
     color: var(--white);
     font-weight: 700;
@@ -29,7 +28,6 @@
       border: 5px solid var(--white);
     }
   }
-
   &__group {
     display: flex;
     justify-content: center;
@@ -45,5 +43,9 @@
         font-size: 2.4rem;
       }
     }
+  }
+  &__img {
+    height: 100%;
+    object-fit: cover;
   }
 }
